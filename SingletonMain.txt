@@ -1,0 +1,11 @@
+    SigletonClass obje1 = SigletonClass.getOnlyObject();
+    obje1.setData("The first data");
+    SigletonClass obj2 = SigletonClass.getOnlyObject();
+    obj2.setData("This is the data of the second object");
+
+    //printing out
+    System.out.println("Printing obje1 data:");
+    System.out.println(obje1.getData());
+    
+    System.out.println("\nPrint obj2 data:");
+    System.out.println(obj2.getData());

@@ -1,0 +1,9 @@
+    VehicleFactory factory = new VehicleFactory();
+    Scanner ins = new Scanner(System.in);
+    System.out.println("Enter vehicle type: ");
+    String v = ins.next();
+
+    Vehicle veh = factory.getVehicle(v);
+
+    veh.logistic();
+    
